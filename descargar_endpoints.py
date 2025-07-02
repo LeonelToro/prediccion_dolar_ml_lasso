@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # CONFIGURACIÓN
-TOKEN = "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODI2NzAyOTcsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJsZW9uZWwudG9ybzkzQGdtYWlsLmNvbSJ9.Q3BQQG0KxCw_PPRh2qraZpdI0KDAlLzm12OfQdPX5s_O7zB4E1GYOKIeMjICtS8cRJm6mK2hkjJULrnbBR2T4w"
+TOKEN = "****"                         # Reemplazar por TOKEN
 OUTPUT_DIR = r"C:\Users\primo\Desktop\Ciencia de Datos\Proyectos\BCRA\data\raw"
 BASE_URL = "https://api.estadisticasbcra.com/"
 HEADERS = {"Authorization": f"BEARER {TOKEN}"}
